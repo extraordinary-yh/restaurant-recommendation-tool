@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
 
 # The code here will ask the user for input based on the askables. It will only ask the user where necessary.
 # Inspired by code from R.Shekhar
@@ -160,9 +158,6 @@ if restaurant:
     print("You should probably go to " + string.capwords(str(restaurant[0]['X']).replace('_', ' ')) + ".")
 else:
     print("Your on your own chief.")
-
-
-# In[ ]:
 
 
 
